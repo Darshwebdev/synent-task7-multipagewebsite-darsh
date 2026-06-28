@@ -1,0 +1,186 @@
+```css id="x4d9mk"
+/* ==========================
+   ABOUT HERO
+========================== */
+
+.about-hero{
+    text-align:center;
+}
+
+.about-hero h1{
+    margin-bottom:25px;
+}
+
+.about-hero p{
+    max-width:800px;
+    margin:auto;
+    font-size:1.1rem;
+}
+
+
+/* ==========================
+   MISSION SECTION
+========================== */
+
+.mission{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:80px;
+    align-items:center;
+}
+
+.mission-image{
+    height:450px;
+    background:var(--secondary-bg);
+    border:1px solid var(--border-color);
+    border-radius:25px;
+
+    overflow:hidden;
+}
+
+.mission-image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.mission-right{
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+}
+
+.mission-right h2{
+    margin-bottom:10px;
+}
+
+
+/* ==========================
+   VALUES
+========================== */
+
+.values-container{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+}
+
+.value-card{
+    background:var(--secondary-bg);
+    border:1px solid var(--border-color);
+
+    padding:35px;
+
+    border-radius:20px;
+
+    transition:0.3s ease;
+}
+
+.value-card:hover{
+    transform:translateY(-10px);
+    border-color:var(--primary-color);
+}
+
+.value-card h3{
+    margin-bottom:20px;
+}
+
+
+/* ==========================
+   TIMELINE
+========================== */
+
+.timeline-container{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+}
+
+.timeline-card{
+    background:var(--secondary-bg);
+
+    border:1px solid var(--border-color);
+
+    padding:35px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    transition:0.3s ease;
+}
+
+.timeline-card:hover{
+    transform:translateY(-10px);
+}
+
+.timeline-card h3{
+    color:var(--primary-color);
+    margin-bottom:15px;
+}
+
+
+/* ==========================
+   TEAM
+========================== */
+
+.team-container{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+}
+
+.team-card{
+    background:var(--secondary-bg);
+
+    border:1px solid var(--border-color);
+
+    padding:40px 30px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    transition:0.3s ease;
+}
+
+.team-card:hover{
+    transform:translateY(-10px);
+}
+
+.profile-circle{
+    width:100px;
+    height:100px;
+
+    margin:auto;
+    margin-bottom:25px;
+
+    border-radius:50%;
+
+    background:linear-gradient(
+        135deg,
+        var(--primary-color),
+        var(--secondary-color)
+    );
+}
+
+.team-card h3{
+    margin-bottom:10px;
+}
+
+.team-card span{
+    color:var(--primary-color);
+}
+
+
+/* ==========================
+   SHADOWS
+========================== */
+
+.value-card,
+.timeline-card,
+.team-card,
+.mission-image{
+    box-shadow:
+    0 10px 25px rgba(0,0,0,0.15);
+}

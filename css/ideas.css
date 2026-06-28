@@ -1,0 +1,777 @@
+/* ==================================================
+                    HERO SECTION
+================================================== */
+
+.ideas-hero{
+    padding:120px 0 80px;
+    text-align:center;
+}
+
+.hero-content{
+    max-width:850px;
+    margin:auto;
+}
+
+.hero-tag{
+    display:inline-block;
+    padding:10px 22px;
+    background:rgba(99,102,241,.12);
+    color:var(--primary-color);
+    border:1px solid rgba(99,102,241,.3);
+    border-radius:50px;
+    font-size:.9rem;
+    font-weight:600;
+    margin-bottom:25px;
+}
+
+.hero-content h1{
+    font-size:3.5rem;
+    margin-bottom:25px;
+    line-height:1.2;
+}
+
+.hero-content p{
+    font-size:1.05rem;
+    color:var(--light-text);
+    line-height:1.8;
+}
+
+/* ==================================================
+                    SEARCH
+================================================== */
+
+.search-section {
+  padding-top: 40px;
+}
+
+.search-container {
+  max-width: 700px;
+  margin: auto;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-container input {
+  flex: 1;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1.5px solid #ccc;
+  outline: none;
+  background-color: #f9f9f9;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.search-container input::placeholder {
+  color: #888;
+}
+
+.search-container input:focus {
+  border-color: #000;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.primary-btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  background-color: #000;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.primary-btn:hover {
+  background-color: #333;
+  transform: translateY(-2px);
+}
+
+
+/* ==================================================
+                    FILTERS
+================================================== */
+
+.filters {
+  padding-top: 40px;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.filter-btn {
+  padding: 10px 22px;
+  background: var(black);
+  color: var(--light-text);
+  border: 1.5px solid var(--border-color);
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+  transform: translateY(-3px);
+  border-color: var(--primary-color);
+  background: rgba(0, 0, 0, 0.05);
+  color: var(--primary-color);
+}
+
+.filter-btn.active {
+  background: var(black);
+  color: #0059ff;
+  border-color: var(black);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+/* ==================================================
+                FEATURED STARTUP
+================================================== */
+
+.featured-startup{
+
+    padding-top:60px;
+
+}
+
+.featured-card{
+
+    display:grid;
+
+    grid-template-columns:2fr 1fr;
+
+    gap:40px;
+
+    background:var(--secondary-bg);
+
+    border:1px solid var(--border-color);
+
+    border-radius:25px;
+
+    padding:45px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.25);
+
+}
+
+.featured-badge{
+
+    display:inline-block;
+
+    background:rgba(56,189,248,.15);
+
+    color:var(--secondary-color);
+
+    padding:10px 18px;
+
+    border-radius:50px;
+
+    margin-bottom:20px;
+
+    font-weight:600;
+
+}
+
+.featured-left h2{
+
+    margin-bottom:18px;
+
+}
+
+.featured-left p{
+
+    margin-bottom:25px;
+
+}
+
+.featured-tags{
+
+    display:flex;
+
+    gap:12px;
+
+    flex-wrap:wrap;
+
+}
+
+.featured-tags span{
+
+    padding:8px 18px;
+
+    background:var(--card-bg);
+
+    border-radius:30px;
+
+    font-size:.9rem;
+
+}
+
+.featured-right{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+.feature-box{
+
+    background:var(--card-bg);
+
+    padding:22px;
+
+    border-radius:18px;
+
+    border:1px solid var(--border-color);
+
+    transition:.3s;
+
+}
+
+.feature-box:hover{
+
+    transform:translateY(-5px);
+
+    border-color:var(--primary-color);
+
+}
+
+.feature-box h3{
+
+    margin-bottom:12px;
+
+    color:var(--primary-color);
+
+}
+
+/* ==================================================
+                    IDEA GRID
+================================================== */
+
+.ideas-grid{
+
+    padding-top:70px;
+
+}
+
+.ideas-container{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:28px;
+
+}
+
+/* ==================================================
+                    IDEA CARD
+================================================== */
+
+.idea-card {
+  background: #0b132b; /* deep navy background */
+  border: 1px solid #1c2541;
+  border-radius: 22px;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  transition: 0.35s ease;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.idea-card:hover {
+  transform: translateY(-10px);
+  border-color: #3a506b;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+}
+
+.idea-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.idea-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+.idea-card p {
+  color: #dbe2ef;
+  line-height: 1.7;
+}
+
+/* =========================
+   INFO SECTION (Revenue/Tech)
+========================= */
+
+.idea-card {
+  background: #ffffff; /* clean white base */
+  border: 1px solid #e2e8f0; /* soft gray border */
+  border-radius: 22px;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  transition: 0.35s ease;
+  box-shadow: 0 10px 25px rgba(30, 58, 138, 0.08); /* navy shadow */
+}
+
+.idea-card:hover {
+  transform: translateY(-10px);
+  border-color: #1e3a8a; /* navy accent */
+  box-shadow: 0 18px 40px rgba(30, 58, 138, 0.15);
+}
+
+.idea-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.idea-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+  color: #0f172a; /* dark navy text */
+}
+
+.idea-card p {
+  color: #334155; /* subtle gray text */
+  line-height: 1.7;
+}
+
+/* =========================
+   INFO SECTION (Revenue/Tech)
+========================= */
+
+.idea-info {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 14px 18px;
+  background: #f8fafc; /* light white-blue tint */
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  transition: all 0.3s ease;
+}
+
+.idea-info:hover {
+  background: #f1f5f9;
+  border-color: #1e3a8a;
+  transform: translateY(-3px);
+}
+
+.idea-info p {
+  font-size: 0.95rem;
+  color: #1e293b; /* dark navy-gray text */
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.idea-info p strong {
+  color: #1e3a8a; /* navy accent for labels */
+  font-weight: 600;
+  min-width: 90px;
+}
+
+.idea-info p::before {
+  content: "•";
+  color: #1e3a8a;
+  font-weight: bold;
+  margin-right: 6px;
+}
+
+
+
+/* ==================================================
+                CATEGORY BADGES
+================================================== */
+
+.category{
+
+    padding:7px 16px;
+
+    border-radius:30px;
+
+    font-size:.8rem;
+
+    font-weight:600;
+
+}
+
+.ai{
+
+    background:rgba(99,102,241,.15);
+
+    color:#8B5CF6;
+
+}
+
+.saas{
+
+    background:rgba(59,130,246,.15);
+
+    color:#3B82F6;
+
+}
+
+.fintech{
+
+    background:rgba(34,197,94,.15);
+
+    color:#22C55E;
+
+}
+
+.health{
+
+    background:rgba(236,72,153,.15);
+
+    color:#EC4899;
+
+}
+
+.education{
+
+    background:rgba(249,115,22,.15);
+
+    color:#F97316;
+
+}
+
+.productivity{
+
+    background:rgba(14,165,233,.15);
+
+    color:#0EA5E9;
+
+}
+
+.ecommerce{
+
+    background:rgba(168,85,247,.15);
+
+    color:#A855F7;
+
+}
+
+/* ==================================================
+                DIFFICULTY BADGES
+================================================== */
+
+.difficulty{
+
+    padding:7px 14px;
+
+    border-radius:30px;
+
+    font-size:.75rem;
+
+    font-weight:600;
+
+}
+
+.easy{
+
+    background:rgba(34,197,94,.18);
+
+    color:#22C55E;
+
+}
+
+.medium{
+
+    background:rgba(245,158,11,.18);
+
+    color:#F59E0B;
+
+}
+
+.hard{
+
+    background:rgba(239,68,68,.18);
+
+    color:#EF4444;
+
+}
+
+/* ==================================================
+                LOAD MORE
+================================================== */
+
+.load-more{
+
+    text-align:center;
+
+    padding-top:10px;
+
+}
+
+/* ==================================================
+                    CTA
+================================================== */
+.ideas-cta {
+  padding-top: 100px;
+}
+
+.cta-card {
+  background: #ffffff; /* clean white base */
+  border-radius: 30px;
+  text-align: center;
+  padding: 80px 60px;
+  box-shadow: 0 20px 50px rgba(30, 58, 138, 0.15); /* soft navy glow */
+  border: 1px solid rgba(30, 58, 138, 0.1);
+  transition: all 0.3s ease;
+}
+
+.cta-card:hover {
+  box-shadow: 0 25px 60px rgba(30, 58, 138, 0.25);
+  transform: translateY(-5px);
+}
+
+.cta-card h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #0f172a; /* dark navy text */
+  font-weight: 700;
+}
+
+.cta-card p {
+  max-width: 700px;
+  margin: 0 auto 35px;
+  color: #334155; /* subtle gray text */
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.cta-card .primary-btn {
+  background: #1e3a8a; /* navy accent */
+  color: #ffffff;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cta-card .primary-btn:hover {
+  background: #172554; /* deeper navy on hover */
+  transform: translateY(-3px);
+}
+
+
+/* ==================================================
+                SMALL EFFECTS
+================================================== */
+
+.idea-card,
+.feature-box,
+.filter-btn{
+
+    transition:all .3s ease;
+
+}
+
+.idea-card::before{
+
+    content:"";
+
+    display:block;
+
+    width:100%;
+
+    height:4px;
+
+    background:linear-gradient(
+        to right,
+        var(--primary-color),
+        var(--secondary-color)
+    );
+
+    border-radius:10px;
+
+    margin-bottom:18px;
+
+    opacity:0;
+
+    transition:.3s;
+
+}
+
+.idea-card:hover::before{
+
+    opacity:1;
+
+}
+/* ==================================================
+                    FOOTER TWEAKS
+================================================== */
+
+footer{
+
+    margin-top:100px;
+
+}
+
+.footer-container{
+
+    align-items:flex-start;
+
+}
+
+.footer-col h2{
+
+    margin-bottom:18px;
+
+}
+
+.footer-col h3{
+
+    margin-bottom:15px;
+
+}
+
+.footer-col p{
+
+    line-height:1.8;
+
+}
+
+.footer-col a{
+
+    display:block;
+
+    margin-bottom:10px;
+
+    transition:.3s;
+
+}
+
+.footer-col a:hover{
+
+    color:var(--primary-color);
+
+    transform:translateX(6px);
+
+}
+
+.footer-col input{
+
+    margin-bottom:15px;
+
+}
+
+.footer-col .primary-btn{
+
+    width:100%;
+
+}
+
+/* ==================================================
+                    SCROLLBAR
+================================================== */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:var(--bg-color);
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:var(--primary-color);
+
+    border-radius:20px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background:#4F46E5;
+
+}
+
+/* ==================================================
+                SIMPLE ANIMATIONS
+================================================== */
+
+.idea-card{
+
+    animation:fadeUp .6s ease forwards;
+
+}
+
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(25px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+.featured-card{
+
+    animation:fadeUp .7s ease;
+
+}
+
+.cta-card{
+
+    animation:fadeUp .8s ease;
+
+}
+
+/* ==================================================
+                SELECTION COLOR
+================================================== */
+
+::selection{
+
+    background:var(--primary-color);
+
+    color:white;
+
+}
+
+/* ==================================================
+                    END
+================================================== */
