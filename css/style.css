@@ -1,20 +1,20 @@
-```css
+
 /* ==========================
    GOOGLE FONTS
 ========================== */
 
 :root{
-    --bg-color:#0F172A;
-    --secondary-bg:#1E293B;
-    --card-bg:#273549;
+    --bg-color:#F8FAFC;
+    --secondary-bg:#FFFFFF;
+    --card-bg:#EEF2FF;
 
     --primary-color:#6366F1;
     --secondary-color:#38BDF8;
 
-    --text-color:#F8FAFC;
-    --light-text:#CBD5E1;
+    --text-color:#0F172A;
+    --light-text:#475569;
 
-    --border-color:#334155;
+    --border-color:#CBD5E1;
 
     --transition:0.3s ease;
 }
@@ -117,7 +117,7 @@ p{
 
 .secondary-btn{
     background:transparent;
-    color:white;
+    color:rgb(0, 0, 0);
     border:1px solid var(--border-color);
     padding:14px 28px;
     border-radius:12px;
